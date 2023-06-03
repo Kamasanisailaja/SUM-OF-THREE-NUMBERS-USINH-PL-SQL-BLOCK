@@ -1,0 +1,19 @@
+--Query:sum of three number
+--PL/SQL block:
+declare
+	a int;
+	b int;
+	c int;
+	s int;
+begin
+	a:=&a;
+	b:=&b;
+	c:=&c;
+      s:=a+b+c;
+      dbms_output.put_line('the sum of '||a||', '||b||' and '||c||' is '||s);
+end;
+/
+--output:
+the sum of 2, 3 and 4 is 9
+
+PL/SQL procedure successfully completed.
